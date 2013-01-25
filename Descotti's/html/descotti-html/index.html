@@ -1,0 +1,326 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD XHTML 1.0 Transitional//EN" "http://www.w3.org/TR/xhtml1/DTD/xhtml1-transitional.dtd">
+<html xmlns="http://www.w3.org/1999/xhtml">
+<head>
+<meta http-equiv="Content-Type" content="text/html; charset=utf-8" />
+<title>Untitled Document</title>
+<link rel="stylesheet" type="text/css" href="css/style.css" />
+<!--[if IE]>
+       <link rel="stylesheet" type="text/css" href="css/ie-style.css" />
+<![endif]-->
+<script src="js/script.js"></script>
+
+<!--<link rel="stylesheet" href="css/global.css">
+	<script src="js/slides.min.jquery.js"></script>
+	<script>
+		$(function(){
+			$('#slides').slides({
+				preload: true,
+				preloadImage: 'img/loading.gif',
+				play: 5000,
+				pause: 2500,
+				hoverPause: true,
+				animationStart: function(current){
+					$('.caption').animate({
+						bottom:-35
+					},100);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationStart on slide: ', current);
+					};
+				},
+				animationComplete: function(current){
+					$('.caption').animate({
+						bottom:0
+					},200);
+					if (window.console && console.log) {
+						// example return of current slide number
+						console.log('animationComplete on slide: ', current);
+					};
+				},
+				slidesLoaded: function() {
+					$('.caption').animate({
+						bottom:0
+					},200);
+				}
+			});
+		});
+	</script>-->
+</head>
+
+<body>
+<div class="outer"><!--Start outer Part -->
+	<div class="inner"><!--Start Inner Part -->
+    	<div class="header"><!-- Start Header Part -->
+        	<div class="header-top">
+            	<div class="header-top-left">
+                	<div class="top-menu">
+                    	<ul>
+                        	<li class="bg"><a href="#">sign in</a></li>
+                            <li><a href="#"> my account</a></li>
+                            <li><a href="#">shopping bag (0)</a> </li> 
+                            <li class="bg"> <a href="#"> <img src="images/d.png" alt="" class="img"/> </a> </li>                    
+                        </ul>
+                    </div>
+                </div>
+                
+                <div class="header-top-right">
+                
+                	<div class="right-call ">
+                    	 <a href="#"> <img src="images/call.png" alt="" class="call"/> </a> 
+					</div> 
+                    <div class="right-face ">                       
+                      <a href="#"> <img src="images/face.png" alt="" /> </a>
+                    </div>
+                     <div class="right-twit ">    
+                          <a href="#"> <img src="images/twit.png" alt="" /> </a> 
+					</div>
+                     <div class="right-rise ">                              
+                        <a href="#"> <img src="images/rise.png" alt="" /> </a>
+					</div>                        
+                    <div class="clear"></div>                     
+                </div>
+                <div class="clear"></div>
+            </div>
+            <div class="logo"><a href="#"><img src="images/logo.png" alt="" /> </a> </div>
+            <div class="header-btm">
+            	<div class="home-menu">
+                	<ul>
+                    	<li><a href="#" class="active"> <span class="active"> HOME </span> </a> </li>
+                        <li><a href="subpage.html"> <span> ABOUT </span></a>  </li>
+                        <li><a href="product.html"> <span> FLAVORS </span></a>  </li>
+                        <li class="order"> <a href="order.html"> <span> ORDER </span> </a>  </li>
+                        <li><a href="#"> <span> PRESS </span></a>  </li>
+                        <li><a href="#"> <span> CONTACT </span></a>  </li>
+                    </ul>
+                    <div class="clear"></div>
+                </div>
+            </div>
+        </div><!-- End Header Part -->
+        <div class="banner"><!-- Start Banner Part -->
+        	<!--<div class="banner-img">
+            	<img src="images/banner.gif" alt="" />
+            </div>
+            
+            <div class="banner-pagination">
+            </div>-->
+            <div id="container">
+		<!--<div id="example">
+		
+			<div id="slides">
+				<div class="slides_container">
+					<div class="slide">
+						<a href="#"><img src="images/biscotti1.jpg" alt="Slide 1" /></a>
+						
+					</div>
+					<div class="slide">
+						<a href="#"><img src="images/banner.gif" alt="Slide 1" /></a>
+						
+					</div>
+					<div class="slide">
+						<a href="#"><img src="images/biscotti1.jpg" alt="Slide 1" /></a>
+						
+					</div>
+					<div class="slide">
+						<a href="#"><img src="images/banner.gif" alt="Slide 1" /></a>
+						
+					</div>
+                    
+                    <div class="slide">
+						<a href="#"><img src="images/banner.gif" alt="Slide 1" /></a>
+						
+					</div>
+					
+					
+					
+				</div>
+				<a href="#" class="prev"><img src="img/arrow-prev.png"  alt="Arrow Prev"></a>
+				<a href="#" class="next"><img src="img/arrow-next.png"  alt="Arrow Next"></a>
+			</div>
+	
+		</div>-->
+        
+        <!--==================================================================================-->
+        
+        <div id="wrapper">
+		<div>
+		
+		<div style="overflow: hidden;" id="slider">
+			<ul>
+				
+				<li><img src="images/biscotti1.jpg" alt="Sea turtle" height="418" width="985"></li>
+				<li><img src="images/banner.gif" alt="Coral Reef" height="418" width="985"></li>
+				<li><img src="images/biscotti1.jpg" alt="Blue Fish" height="418" width="985"></li>
+                <li><img src="images/banner.gif" alt="Blue Fish" height="418" width="985"></li>
+                <li><img src="images/biscotti1.jpg" alt="Blue Fish" height="418" width="985"></li>
+			</ul>
+		</div>
+        <div><img src="images/banner-shadow.jpg" alt="" /></div>
+        <div class="sliderbutton2"><img src="images/right.png" alt="Previous" onclick="slideshow.move(-1)" height="22" width="22"></div>
+		<div class="sliderbutton1"><img src="images/left.png" alt="Next" onclick="slideshow.move(1)" height="22" width="22"></div>
+	</div>
+    <div style="position:absolute; top:440px; left:380px;">
+	<ul id="pagination" class="pagination">
+		<li class="" onclick="slideshow.pos(0)"></li>
+		<li class="current" onclick="slideshow.pos(1)"></li>
+		<li class="" onclick="slideshow.pos(2)"></li>
+		<li class="" onclick="slideshow.pos(3)"></li>
+        <li class="" onclick="slideshow.pos(4)"></li>
+	</ul>
+    </div>
+    <div class="clear"></div>
+</div>
+<script type="text/javascript">
+var slideshow=new TINY.slider.slide('slideshow',{
+	id:'slider',
+	auto:3,
+	resume:true,
+	vertical:false,
+	navid:'pagination',
+	activeclass:'current',
+	position:0
+});
+</script>
+        
+        <!--==================================================================================-->
+		
+	</div>
+            
+            
+        </div><!--End Banner Part -->
+    </div><!--End Inner Part -->
+    <div class="footer">
+    	<div class="footer-auto">
+        	<div class="footer-auto-top">
+            	<div class="ft-auto-tp-part1"><!-- part1 Start-->
+                	<div class="part1-top">
+                    	<p class="para1">Hot Product</p><p class="para2">Check It Out Now!</p>
+                    </div>
+                    
+                    <div class="part1-btm">
+                    	<div class="part1-btm-lft">
+                        	<img src="images/img1.gif" alt="" />
+                        </div>
+                        
+                        <div class="part1-btm-rht">
+                        	<p class="part1-btm-rht-para1">A great mate for a steamy hot cup of cocoa or cafe` au lait! Luxuriate in the smooth, crunchy and 
+                            luscious Biscotti of...</p><p class="part1-btm-rht-para2">Box of 12 - $55.00</p><button type="button" class="cart">Cart</button> 
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                </div><!--End-->
+                <div class="footer-border">
+                	<img src="images/footer-border.gif" alt="" />
+                </div>
+                
+                <div class="ft-auto-tp-part2"><!--part2 Start-->
+                	<div class="part2-first">
+                    	<p class="para1">Upcoming Events</p><p class="para2">Where to Find Us</p>
+                    </div>
+                    
+                    <div class="part2-second">
+                    	<div class="part2-second-img">
+                        	<img src="images/9.gif" alt="" />
+                        </div>
+                        
+                        <div class="part2-secondd">
+                        	<p class="part2-second-para">New to Tampa FL, the Donatello's Restaurant will be working with Descotti</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    
+                    <div class="part2-second">
+                    	<div class="part2-second-img">
+                        	<img src="images/9.gif" alt="" />
+                        </div>
+                        
+                        <div class="part2-secondd">
+                        	<p class="part2-second-para">New to Tampa FL, the Donatello's Restaurant will be working with Descotti</p>
+                        </div>
+                        <div class="clear"></div>
+                    </div>
+                    
+                    
+                    
+                    
+                </div><!--End-->
+                <div class="footer-border">
+                	<img src="images/footer-border.gif" alt="" />
+                </div>
+                
+                <div class="ft-auto-tp-part3"><!--part3 Start-->
+                
+                	<div class="part3-first">
+                    	<p class="para1">Upcoming Events</p><p class="para2">Where to Find Us</p>
+                    </div>
+                    
+                    <div class="part3-second">
+                        <div class="part3-img5">
+                             <a href="#"> <img src="images/img5.gif" alt="" /> </a>
+                        </div>
+                        
+                        <div class="part3-img6">                         
+                              <a href="#"> <img src="images/img6.gif" alt="" /> </a>
+                        </div>
+                          
+                        <div class="part3-img7">                         
+                             <a href="#"> <img src="images/img7.gif" alt="" /> </a> 
+                        </div>                                        
+                        <div class="clear"></div>
+					</div>
+                    
+                    <div class="part3-third">
+                    	<div class="part3-img5">
+                             <a href="#"> <img src="images/img5.gif" alt="" /> </a>
+                        </div>
+                        
+                        <div class="part3-img6">                         
+                              <a href="#"> <img src="images/img6.gif" alt="" /> </a>
+                        </div>
+                          
+                        <div class="part3-img7">                         
+                             <a href="#"> <img src="images/img7.gif" alt="" /> </a> 
+                        </div>                                                               
+                        <div class="clear"></div>
+                        	<p class="part3-third-para" align="center"><a href="#">See More</a></p>
+                    </div>
+                </div><!--End-->
+                
+                <div class="footer-border">
+                	<img src="images/footer-border.gif" alt="" />
+                </div>
+                 
+                 <div class="ft-auto-tp-part4"><!--part4 Start-->
+                 	<div class="part4-first">
+                    	<p class="para1">Sign up for our</p><p class="para2">Newsletter and Coupons</p>
+                    </div>
+                    
+                    <div class="home-form">
+                    	<p class="home-form-para">Name</p>
+                        <input type="text" class="home-form-bg"/>
+                        
+                        <p class="home-form-para">Email</p>
+                        <input type="text" class="home-form-bg"/>
+                        <p align="right" class="button-para"><button type="button" class="button">Submit</button></p>
+                    </div>
+                </div><!--End-->
+                <div class="clear"></div>
+            </div>
+            
+            <div class="footer-auto-btm">
+            	<div class="footer-btm">
+                	<p>&copy;&nbsp;&nbsp;2011 Descotti Services, Made in USA.  All Rights Reserved.</p>
+                </div>
+                
+            	<div class="footer-at-btm-menu">
+                	<ul>	                    	
+                        <li class="bg"><a href="#">Customer Service</a> </li>
+                        <li><a href="#">Site Map</a></li>
+                        <li><a href="#">Contact Us</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+</div><!-- End Outer Part-->
+</body>
+</html>

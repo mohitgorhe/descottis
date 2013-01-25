@@ -1,0 +1,272 @@
+@charset "utf-8";
+/* CSS Document */
+
+
+
+
+@font-face
+{
+	font-family:fradmcn;
+	src:url('fradmcn.eot');
+}
+@font-face
+{
+	font-family:frahv;
+	src:url('frahv.eot');
+}
+.contain-top-para2 
+{
+	font-family:FRADMCN;
+	font-size:26px;
+	color:#aed67f;
+	
+}
+.contain-top-para1
+{
+	font-family:FRAHV;
+	font-size:30px;
+	color:#2b1b08;
+	
+}
+
+@font-face
+{
+	font-family:fradm;
+	src:url('fradm.eot');
+}
+
+
+
+
+@font-face
+{
+	font-family:framd;
+	src:url('framd.eot');
+}
+.order-contain-btm-first-para
+{
+	font-family:framd;
+	font-size:12px;
+	color:#000;
+}
+
+.chocolate-rht-para1
+{
+	font-family:framd;
+	font-size:15px;
+	color:#0081c9;
+	padding-bottom:15px;
+}
+
+.price
+{
+	font-family:framd;
+	font-size:13px;
+	color:#000;
+}
+
+.price-para
+{
+	font-family:framd;
+	font-size:13px;
+	color:#72a92f;
+
+}
+
+.plus
+{
+	font-family:framd;
+	font-size:8px;
+	color:#000;
+	padding-bottom:15px;
+}
+
+.lorem-para
+{
+	font-family:framd;
+	font-size:12px;
+	color:#000;
+}
+
+.result
+{
+	font-family:framd;
+	font-size:16px;
+	color:#8b8b8b;
+	padding-left:10px;
+	
+}
+
+
+.product-para
+{
+	font-family:framd;
+	font-size:16px;
+	color:#0081c9;
+}
+
+
+.product-price
+{
+	font-family:framd;
+	font-size:16px;
+	color:#000;
+}
+
+.product-price-para
+{
+	font-family:framd;
+	font-size:16px;
+	color:#72a92f;
+
+}
+
+.size
+{
+	font-family:framd;
+	font-size:13px;
+	color:#000;
+	padding-right:60px;
+	
+}
+
+.custom
+{
+	font-family:framd;
+	font-size:13px;
+	color:#000;
+	padding-right:20px;
+}
+
+
+.order-contain-btm-second-para
+{
+	font-family:framd;
+	font-size:12px;
+	color:#000;
+	padding-top:20px;
+}
+@font-face
+{
+	font-family:frabk;
+	src:url('frabk.eot');
+}
+
+.top-menu ul li a
+{
+	font-family:FRADM;
+	font-size:12px;
+	color:#2b1b08;
+}
+
+.home-menu ul li a
+{
+	font-family:FRADM;
+	font-size:22px;
+	color:#3c260b;
+	padding:8px 10px 10px 10px;
+	
+}
+
+.home-menu ul li a span
+{
+	font-family:FRADM;
+	font-size:22px;
+	color:#3c260b;
+	padding:8px 10px 10px 0px;
+	
+}
+
+.home-menu ul li a:hover
+{
+	font-family:FRADM;
+	font-size:22px;
+	color:#fff;
+	background:url(../images/mnu-lft.png) no-repeat;
+	
+}
+
+.para1
+{
+	font-family:FRADM;
+	font-size:18px;
+	color:#fff;
+}
+
+.para2
+{
+	font-family:FRABK;
+	font-size:18px;
+	color:#fff;
+}
+
+.part1-btm-rht-para1
+{
+	font-family:FRABK;
+	font-size:10px;
+	color:#fff;
+	width:90px;
+}
+
+.part1-btm-rht-para2
+{
+	font-family:FRABK;
+	font-size:12px;
+	color:#32cd32;
+	margin-top:12px;
+}
+.cart
+{
+	background:url(../images/cart.gif) no-repeat;
+	width:47px;
+	height:25px;
+	font-family:FRADM;
+	font-size:15px;
+	color:#2b1b08;
+	padding-top:2px;
+	padding-left:7px;
+	margin-top:10px;
+}
+
+.part2-second-para
+{
+	font-family:FRABK;
+	font-size:14px;
+	color:#fff;
+	width:145px;
+	margin-right:50px;
+}
+
+.part3-third-para a
+{
+	font-family:FRADM;
+	font-size:11px;
+	color:#fff;
+	border-bottom:#999 solid 2px;
+	
+}
+
+.home-form-para
+{
+	font-family:FRADM;
+	font-size:14px;
+	color:#fff;
+}
+.button
+{
+	background:url(../images/submit.gif) no-repeat;
+	width:66px;
+	height:25px;
+	border:none;
+	font-family:FRADM;
+	font-size:15px;
+	color:#2b1b08;
+}
+
+.footer-at-btm-menu ul li a
+{
+	font-family:FRABK;
+	font-size:14px;
+	color:#e6e6e6;
+	font-weight:bold;
+}
